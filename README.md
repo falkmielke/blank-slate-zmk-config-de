@@ -45,19 +45,19 @@ in an attempt to realize something close to German QWERTZ layout.
 
 - basic layout: https://docs.lpgala.xyz/docs/blank-slate-build-guide/typing-test
 
-- list of available codes: https://zmk.dev/docs/keymaps/list-of-keycodes
+- list of available codes: https://zmk.dev/docs/keymaps/list-of-keycodes and modifiers https://zmk.dev/docs/keymaps/modifiers
 
 - translation german keys: https://github.com/qmk/qmk_firmware/blob/master/quantum/keymap_extras/keymap_german.h
 
-- German keyboard layout: https://en.wikipedia.org/wiki/German_keyboard_layout
-
+- German keyboard layout: https://en.wikipedia.org/wiki/German_keyboard_layout, 
+  https://en.wikipedia.org/wiki/German_keyboard_layout#/media/File:KB_Germany.svg
 
 
 # TODO's
 
 - [x] Umlaute
 - [x] arrange modifiers
-- [ ] more special keys
-- [ ] num row (shift up with left thumb nav)
-- [ ] F-keys (left block of NUM)
-- [ ] update keymap svg
+- [x] more special keys
+- [x] num row (shift up with left thumb nav)
+- [x] F-keys (left block of NUM)
+- [x] update keymap svg

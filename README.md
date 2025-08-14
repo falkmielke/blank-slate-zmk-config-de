@@ -53,6 +53,18 @@ in an attempt to realize something close to German QWERTZ layout.
   https://en.wikipedia.org/wiki/German_keyboard_layout#/media/File:KB_Germany.svg
 
 
+# procedure
+
+- build and download the `*.uf2` firmware file (from `_studio` and `_zmk`, choose the latter)
+- connect via usb
+- double-press the reset button 
+  - small hole/button on the back, between keys [w] and [e]
+  - or: [&bootloader] key
+  - -> blue LED behind [Esc] will flash
+- this should mount the keyboard as a usb drive (otherwise/linux, mount manually)
+- copy the firmware file to the keyboard (will restart and unmount)
+
+
 # TODO's
 
 - [x] Umlaute
